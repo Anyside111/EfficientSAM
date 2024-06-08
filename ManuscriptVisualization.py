@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the CSV file
-file_path = 'iou_dice_score_madsam_tune.csv'
+file_path = 'iou_dice_scores_point.csv'
 data = pd.read_csv(file_path)
 
 # Filter data for 'EfficientSAM (VIT-tiny)' and 'EfficientSAM (VIT-small)'
